@@ -5,11 +5,10 @@
 # Напишите программу, которая находит количество положительных и количество отрицательных чисел в последовательности. 
 # Последовательность заканчивается на числе 0.
 
-positive_counter = 0
-negative_counter = 0
-
 while True:
     number = int(input("Введите вашу оценку, от -100 до 100: "))
+    positive_counter = 0
+    negative_counter = 0
     
     if number == 0:
         print("Колличество позитивных отзывов: ", positive_counter)
